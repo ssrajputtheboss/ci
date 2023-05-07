@@ -1,0 +1,9 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
