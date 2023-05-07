@@ -5,12 +5,12 @@ orbs:
 workflows:
   sample:
     jobs:
-      - build_and_test:
-          executor: node/default
-          steps:
-            - checkout
-            - node/install-packages:
-                pkg-manager: yarn
-            - run:
-                command: yarn start
-                name: Run App
+      build_and_test:
+        executor: node/default
+        steps:
+          - checkout
+          - node/install-packages:
+              pkg-manager: yarn
+          - run:
+              command: yarn start
+              name: Run App
